@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: kubesrv
-          image: bansikah/kubesrv:1.1.0
+          image: bansikah/kubesrv:1.2.0
           ports:
             - containerPort: 8080
           resources:
