@@ -1,0 +1,2 @@
+# kubesrv-gitops
+FluxCD demo
