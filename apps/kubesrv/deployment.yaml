@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kubesrv
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -17,4 +18,3 @@ spec:
           image: bansikah22/kubesrv:1.0
           ports:
             - containerPort: 8080
-          request:
